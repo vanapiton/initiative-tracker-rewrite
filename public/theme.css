@@ -136,6 +136,12 @@ tr.attitude-hostile > td {
     position: sticky;
     bottom: 3rem;
     margin-top: 3rem;
+    z-index: 100;
+    pointer-events: none;
+}
+
+#input-container input, #input-container button {
+    pointer-events: all;
 }
 
 .btns-space-between {
